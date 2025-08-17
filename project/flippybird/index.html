@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" onClick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flippy Bird Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="title">
+            <h1>flippy bird</h1>
+        </div>
+        
+        <div id="score">
+            <div id="current">Your Score: 0</div>
+            <div id="high">High Score: 0</div>
+        </div>
+        <div id="game">
+            <div id="block"></div>
+            <div id="hole"></div>
+            <div id="character"></div>
+        </div>
+        <div id="gameover">
+            <h1>
+                Game Over
+            </h1>
+            
+            <button onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
